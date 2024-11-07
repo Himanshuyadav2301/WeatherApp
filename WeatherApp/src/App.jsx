@@ -18,6 +18,7 @@ const App = () => {
 
   useEffect(() => {
     if ( inputVal !== ""){
+      
       WeatherData(inputVal);
     }
   }, [inputVal]);
